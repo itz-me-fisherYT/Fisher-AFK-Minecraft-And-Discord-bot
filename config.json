@@ -1,0 +1,19 @@
+ {
+  "prefix": "$",
+  "username": "itz_me_fisherYTT",
+  "password": false,
+  "ip": "game6.falixserver.net",
+  "version": "1.19.4",
+  "scid": "1121022285495664690",
+  "jc": "Hello i am Fisher's Friend I am Ready to help! do !help",
+  "messages": [
+    "rember to see your bed! there is not /sethome, /home",
+    "no /tpa no /enderchest"
+  ],
+  "colorcodes": "&d&n&l",
+  "blacklist": [
+    "itz_me_fisherYT",
+    ""
+  ],
+  "delay": 10
+}
