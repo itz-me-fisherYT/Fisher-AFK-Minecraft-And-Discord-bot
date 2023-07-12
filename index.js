@@ -1,4 +1,3 @@
-const Dtoken = process.env['Dtoken']
 var mineflayer = require('mineflayer');
 var tpsPlugin = require('mineflayer-tps')(mineflayer);
 var antiafk = require('mineflayer-antiafk');
@@ -77,7 +76,7 @@ setTimeout(() => {
   
     bot.once("spawn", () => {
         bot.physics.maxGroundSpeed = 2
-        bot.chat("/server Anarchy")
+        bot.chat("/server Anarchy") //if your puuting it on a server 
         setInterval(() => {
             bot.setControlState("jump", true)
             bot.setControlState("jump", false)
@@ -157,10 +156,10 @@ setTimeout(() => {
             text = text.replace(/§[0-9a-fklmnor]/gi, '');
 
             if (text === "tp") {
-                bot.chat(`/tpa itz_me_fisherYT`);
+                bot.chat(`/tpa your username!`);
             }
             if (text === "tp2") {
-                bot.chat(`/tpa breadperson86`);
+                bot.chat(`/tpa frineds username`);
             }
             if (text === "discord") {
                 bot.chat("Bots discord: https://discord.gg/WG9EeGtKbK");
@@ -183,7 +182,7 @@ setTimeout(() => {
           if (text === 'kit') {
                 bot.chat(`/msg ${username} &f&k|||| &l&e&lPlease accept the teleportation request! &f&k||||`)
             bot.chat(`/msg ${username} &f&kKits Are Stil`)
-    bot.chat(`/tpa ${username}`)
+    bot.chat(`/tpa ${username}`) //STILL BEING MADE WILL BE UPDATED!
             }
             if (text === 'help') {
                 bot.chat(`/msg ${username} &e&lmy commands are !discord !leave !kill !dupe !tpa !kit`);
