@@ -42,16 +42,9 @@ function createBot() {
     bot.loadPlugin(antiafk);
 
   bot.on('message', message => { // logs messages to console + logins for the server
-        console.log('\x1b[36m%s\x1b[0m', '[CHAT]' + '\x1b[0m', '' + message.toString());
-            if (message.toString() === ("Please, login with the command: /login <password>")) {
-                bot.chat(`/login ` + password) } // Login (not gonna use .env, if you're using a public service like repl.it and you got hacked its your fault.)
-                if (message.toString() === ("Please, register to the server with the command: /register <password> <ConfirmPassword>")) {
-                bot.chat(`/register ` + password) } // Registers into 8b. Might made this universal for servers that uses the same login concept.
-            if (message.toString() === ("Successful login!")) {
-                console.log('\x1b[33m%s\x1b[0m','[Console] not has joined the server!') } // Bot has joined the server
-            if (message.toString() === ("Successfully registered!")) {
-                console.log('\x1b[33m%s\x1b[0m','[Console] Bot has successfully registered to the server!') } // huhu   
+        console.log('\x1b[36m%s\x1b[0m', '[CHAT]' + '\x1b[0m', '' + message.toString());   
       });
+  
 bot.on('playerCollect', (collector) => {
     if (collector !== bot.entity) return
 
@@ -419,9 +412,9 @@ setTimeout(() => {
         channel.send(msg)
     });
 
-    client.login(Dtoken)
-        .catch(error => {
-            console.log(chalk.red(`Can't Login`));
+    client.login(config.Dtoken)
+    .catch(error => {
+        console.log(chalk.red(`Can't Login`));
         })
 
     bot.on('kicked', (reason) => {
