@@ -1,19 +1,20 @@
  {
-  "prefix": "$",
-  "username": "itz_me_fisherYTT",
+  "Dtoken": "YOU_DISCORD_BOT_TOKEN",
+  "prefix": "PREFIX_FOR_DISCORD_BOT",
+  "username": "BotName",
   "password": false,
-  "ip": "game6.falixserver.net",
-  "version": "1.19.4",
-  "scid": "1121022285495664690",
-  "jc": "Hello i am Fisher's Friend I am Ready to help! do !help",
+  "ip": "Server_IP",
+  "version": "1.19",
+  "scid": "CHANNEL_ID_FOR_CHAT_BRIDGE",
+  "jc": "", //join message or login!
   "messages": [
-    "rember to see your bed! there is not /sethome, /home",
-    "no /tpa no /enderchest"
+    "message1",
+    "message2"
   ],
-  "colorcodes": "&d&n&l",
+  "colorcodes": "&k!!!",
   "blacklist": [
-    "itz_me_fisherYT",
-    ""
+    "player1",
+    "player2"
   ],
-  "delay": 10
+  "delay": 20
 }
