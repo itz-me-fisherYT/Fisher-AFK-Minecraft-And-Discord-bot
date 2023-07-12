@@ -26,14 +26,15 @@ A Minecraft bot created with the help of the mineflayer and discord.js libraries
 ## Config format
 ```json
 {
-  "Dtoken": "YOU_DISCORD_BOT_TOKEN",
+  "Dtoken": "YOU_DISCORD_BOT_TOKEN", //IF YOUR USEING replit.com DONT BLAME ME IF YOUR DISCORD BOT GETS HACKED!!
   "prefix": "PREFIX_FOR_DISCORD_BOT",
   "username": "BotName",
   "password": false,
   "ip": "Server_IP",
   "version": "1.19",
   "scid": "CHANNEL_ID_FOR_CHAT_BRIDGE",
-  "jc": "",
+  "jc": "", //register password password or /login password
+  //IF YOUR USEING replit.com DONT BLAME ME IF YOUR BOT GETS HACKED!!
   "messages": [
     "message1",
     "message2"
@@ -45,6 +46,9 @@ A Minecraft bot created with the help of the mineflayer and discord.js libraries
   ],
   "delay": 20
 }
+// my discord is: itz_me_fisheryt
+// my discord server | Metamfetamiin_2 bot development
+// https://discord.gg/sj7bFAVFdh
 ```
 ## Commands
 
