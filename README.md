@@ -67,7 +67,7 @@ A Minecraft bot created with the help of the mineflayer and discord.js libraries
 Because I am dumb, I accidentially wrote this using Discord.js v12.
 
 #### Does the bot have Whisper Spam?
-Yep
+no 
 
 ## Thanks To
 [PrismarineJS](https://github.com/PrismarineJS) for [Mineflayer](https://github.com/PrismarineJS/mineflayer)
