@@ -165,25 +165,25 @@ setTimeout(() => {
             if (text === "discord") {
                 bot.chat("Bots discord: https://discord.gg/WG9EeGtKbK");
             }
-            if (text === 'leav') {
+            if (text === 'leave') {
                 bot.chat("Disconnected, attempting to reconnect in 60 seconds...");
                 bot.quit();
             }
               if (text === "tpa") {
-                bot.chat(`${username} kill yourself`);
+                bot.chat(`/tpa ${username}`);
             }
           if (text === "dupe") {
                 bot.chat(`/msg ${username} &e&n&lgive me a shulker box and place a item frame near me!`);
                 bot.chat(`/msg ${username} &d&n&ldo !discord join the discord and do !dupe in #the-mc-chat ty`);
-                bot.chat(`${username} kill yourself`);
+                bot.chat(`/tpa ${username}`);
           }
             if (text === 'kill') {
                 bot.chat("/kill");
             }
           if (text === 'kit') {
                 bot.chat(`/msg ${username} &f&k|||| &l&e&lPlease accept the teleportation request! &f&k||||`)
-            bot.chat(`/msg ${username} &f&kKits Are Still Being Made!`)
-    bot.chat(`${username} kill yourself`)
+            bot.chat(`/msg ${username} &f&kKits Are Stil`)
+    bot.chat(`/tpa ${username}`)
             }
             if (text === 'help') {
                 bot.chat(`/msg ${username} &e&lmy commands are !discord !leave !kill !dupe !tpa !kit`);
