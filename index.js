@@ -33,7 +33,7 @@ function createBot() {
             host: ip,
             username: username,
             hideErrors: true,
-            password: 231107,
+            password: ,
             version: ver
         });
     }
